@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+
+# HaarCascades Loading
 detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)

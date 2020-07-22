@@ -1,6 +1,6 @@
 import cv2
 
-# HarrCascades Loading
+# HaarCascades Loading
 detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 cap = cv2.VideoCapture(0)
